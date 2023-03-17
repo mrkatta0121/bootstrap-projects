@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDIA MART</title>
+    <link rel="stylesheet" href="../CSS/indiamart.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+</head>
+
+<body>
+    <header>
+        <section class="d-flex justify-content-evenly flex-wrap alert-dark">
+            <article>
+                <img src="data:image/png;base64,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"
+                    alt="" width="150px" height="110px">
+            </article>
+            <article class="d-flex mt-5">
+                <aside> <input type="text" class="px-5 py-1 border-2 border-dark border-end-0 w-100 "
+                        placeholder="Enter a key word to search products"> </aside>
+                <aside data-bs-target="tooltip" data-bs-placement="left" title="search by images">
+                    <ion-icon name="camera-outline" class="border border-dark border-2 border-start-0 px-2 py-2">
+                    </ion-icon>
+                </aside>
+                <aside> <button type="button" class="btn btn-danger">search</button> </aside>
+            </article>
+
+
+            <article id="x1" class="mt-5">
+                <aside class="btn dropdown-toggle" data-bs-toggle="dropdown"><b> For Buyer </b></aside>
+                <aside class="dropdown-menu">
+                    <aside class="row">
+                        <aside class="col">
+                            <aside class="dropdown-item">
+                                Product Directory </aside>
+                            <aside class="dropdown-item"> Supplier Discovery </aside>
+                            <aside class="dropdown-item">
+                                Video Channel</aside>
+                            <aside class="dropdown-item"> Post Sourcing Request </aside>
+                            <aside class="dropdown-item"> <b>Sourcing Solutions</b> </aside>
+                            <aside class="dropdown-item">Source from Industry Hubs </aside>
+                            <aside class="dropdown-item"> Customize Your Products </aside>
+                            <aside class="dropdown-item"> MEI Awards-Winning Products </aside>
+                            <aside class="dropdown-item"> Smart Expo </aside>
+                        </aside>
+                        <aside class="col">
+                            <aside class="dropdown-item"> <b>Service</b> </aside>
+                            <aside class="dropdown-item"> New User Guide </aside>
+                            <aside class="dropdown-item"> Star Buyer </aside>
+                            <aside class="dropdown-item"> Product Alert </aside>
+                            <aside class="dropdown-item">Supplier Audit Report </aside>
+                            <aside class="dropdown-item"> Meet Suppliers </aside>
+                            <aside class="dropdown-item"> Online Trading </aside>
+                            <aside class="dropdown-item"> Contact Us </aside>
+                            <aside class="dropdown-item"> <b> Quick Links </b> </aside>
+                            <aside class="dropdown-item"> My Favorites </aside>
+                            <aside class="dropdown-item"> Recent Visit History </aside>
+
+
+                        </aside>
+                    </aside>
+                </aside>
+            </article>
+
+
+            <article id="x2"  class="mt-5">
+                <aside class="btn dropdown-toggle" data-bs-toggle="dropdown"> <b> For Supplier </b></aside>
+                <aside class="dropdown-menu">
+
+                    <aside class="dropdown-item"> <b>Service</b> </aside>
+                    <aside class="dropdown-item"> Contactpersonen </aside>
+                    <aside class="dropdown-item"> Financiële en fiscale gegevens </aside>
+                    <aside class="dropdown-item">Documention </aside>
+                    <aside class="dropdown-item">Activiteiten en omvang </aside>
+                    <aside class="dropdown-item"> Certification </aside>
+                    <aside class="dropdown-item"> Online Trading </aside>
+                    <aside class="dropdown-item"> Contact Us </aside>
+                    <aside class="dropdown-item"> <b> Quick Links </b> </aside>
+                    <aside class="dropdown-item"> My Favorites </aside>
+                    <aside class="dropdown-item"> Recent Visit History </aside>
+                </aside>
+            </article>
+
+
+
+            <article class="d-flex mt-5" data-bs-toggle="modal" data-bs-target="#ap1">
+                <aside>
+                    <ion-icon name="person-outline"></ion-icon>
+                </aside>
+                <aside> <b> SIGN-IN <br> Join Free </b></aside>
+            </article>
+            <article class="modal" id="ap1">
+                <aside class="modal-dialog">
+                    <aside class="modal-header">
+                        <article class="btn btn-close bg-danger"></article>
+                    </aside>
+
+                    <aside class="modal-body modal-content">
+                        <label for="">EMAIL</label>
+                        <input type="email" placeholder="@abcd" >
+                        <label for=""> password</label>
+                        <input type="password" placeholder="******">
+                    </aside>
+                    <aside class="modal-footer">
+                        <button type="button" class="btn btn-success"> LOGIN</button>
+
+                    </aside>
+                </aside>
+
+            </article>
+            <article class="d-flex mt-5">
+                <aside>
+                    <ion-icon name="cart-outline"></ion-icon>
+                </aside>
+                <aside> <b> -BASKET </b> </aside>
+            </article>
+
+        </section>
+    </header>
+    <section  class=" container d-flex my-5" >
+        <section >
+             <article class="h4 text-center"> <b> <ion-icon name="menu-outline"></ion-icon>Categories</b> </article>
+             <article id="x3">
+                <ul class="list-group">
+                <li class="list-group-item">  Manufacturing & Processing Machinery</li>  
+                <li class="list-group-item">Consumer Electronics</li> 
+                <li class="list-group-item">Industrial Equipment & Components</li> 
+                <li class="list-group-item">Electrical & Electronics</li> 
+                <li class="list-group-item">  Construction & Decoration</li> 
+                <li class="list-group-item">Light Industry & Daily Use</li>   
+                <li class="list-group-item">Auto, Motorcycle Parts & Accessories</li> 
+                <li class="list-group-item">Apparel & Accessories</li> 
+                <li class="list-group-item">Lights & Lighting</li> 
+                <li class="list-group-item">Sporting Goods & Recreation</li> 
+                <li class="list-group-item">Transportation</li> 
+                <li class="list-group-item">Arts & Crafts</li> 
+                <li class="list-group-item">Health & Medicine</li> 
+                <li class="list-group-item">Packaging & Printing</li> 
+                <li class="list-group-item">Computer Products</li> 
+                </ul>
+             </article>
+            
+        </section>
+        <section class="carousel w-50 h-50 " data-bs-ride="carousel" id="a1">
+            <article class="carousel-indicators">
+                <aside class="btn btn-info active" data-bs-target="#a1" data-bs-slide-to="0"> </aside>
+                <aside class="btn btn-ingo" data-bs-target="#a1" data-bs-slide-to="1"></aside>
+                <aside class="btn btn-info" data-bs-target="#a1" data-bs-slide-to="2"></aside>
+            </article>    
+            <article class="carousel-inner">
+                <aside class="carousel-item active"> <img class="d-block w-75  " src="https://topipo.in/wp-content/uploads/2022/04/CAMPUS-Live-IPO-Subscription-Status-5-1.png" alt="" > </aside>
+                <aside class="carousel-item "> <img class="d-block w-75 " src="https://www.stockquantum.com/wp-content/uploads/2020/04/IndiaMART-Reviews-1024x576.png" alt=""  ></aside>
+                <aside class="carousel-item"> <img class="d-block w-75 " src="https://i0.wp.com/corporate.indiamart.com/wp-content/uploads/2022/02/Media-Briefing-22Feb-22-07-4.jpg?resize=1080%2C800&ssl=1" alt="" ></aside>
+            </article>
+            <article>
+                <aside class="btn btn-dark carousel-control-prev" data-bs-target="#a1" data-bs-slide="prev">
+                    <aside class="carousel-control-prev-icon"> </aside> </aside>
+            </article>
+            <article>
+                <aside class="btn btn-dark carousel-control-next" data-bs-target="#a1" data-bs-slide="next">
+                    <aside class="carousel-control-next-icon"> </aside>
+                </aside>
+            </article>
+        
+                 
+        </section>
+        <section id="x4" class="m-4">
+         <h4 class="text-center">you may like</h4>
+         <article class="d-flex  mt-4">
+         <aside id="x5"> <img  src="https://image.made-in-china.com/3f2j00zdfimsoFwQcJ/Hydraulic-Pump-A10vg-Series-Spare-Parts-User-Manual.webp" alt="">
+         </aside>
+         <aside class="my-4 mx-3"> <aside>  <b> Hydraulic Pump</b>
+            </aside>
+                <aside><small> 355,000+ Product</small></aside>
+        </aside>
+         </article>
+         <article class="d-flex  mt-4 ">
+            <aside id="x5"> <img  src="https://image.made-in-china.com/3f2j00izZGRwCcHgbf/Mushroom-Shape-Glass-Side-Table.webp" alt="">
+            </aside>
+            <aside class="my-4 mx-3"> <aside>  <b> Coffee Table</b>
+               </aside>
+                   <aside><small> 67,000+ Products</small></aside>
+           </aside>
+            </article>
+            <article class="d-flex  mt-4">
+                <aside id="x5"> <img  src="https://image.made-in-china.com/3f2j00ZSwlfHCckOba/Wholesale-OEM-Italian-Hotel-Villa-Luxury-Home-Lounge-Suite-Royal-Modern-Living-Room-Leather-Sofa-Furniture-Set-Sectional-Couch-with-Marble-Coffee-Side-Table.webp" alt="">
+                </aside>
+                <aside class="my-4 mx-3"> <aside>  <b> Home Furniture </b>
+                   </aside>
+                       <aside><small>786,000+ Products</small></aside>
+               </aside>
+                </article>
+                <article class="d-flex mt-4">
+                    <aside id="x5"> <img  src="https://image.made-in-china.com/3f2j00QaDfoFNEOeqp/Hot-Sale-R-O-System-Water-Purifier-with-Frame-and-Pressure-Gauge.webp" alt="">
+                    </aside>
+                    <aside class="my-4 mx-3"> <aside>  <b> Water Purifier </b>
+                       </aside>
+                           <aside><small> 159,000+ Products</small></aside>
+                   </aside>
+                    </article>
+
+         </section>
+
+    </section>
+   
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</html>

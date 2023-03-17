@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+header section :hover {
+ color: rgb(255, 5, 5);
+    cursor: pointer;
+}
+#x1 :hover{
+    color: rgb(255, 5, 5);
+    cursor: pointer;  
+}
+#x2 :hover{
+    color: rgb(255, 5, 5);
+    cursor: pointer;  
+}
+#x3 :hover{
+    color: rgb(250, 247, 247);
+    background-color: black;
+    cursor: pointer;  
+}
+
+#x4 :hover{
+    color: rgb(255, 5, 5);
+    cursor: pointer;  
+}
+
+#x5 :hover{
+    transform: scale(1.3);
+    transition: 2s;
+    animation:   duration timing-function delay iteration-count direction fill-mode;
+}

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restuarant</title>
+    <link rel="icon" href="../MEDIA/restuarant-logo.png">
+    <link rel="stylesheet" href="../CSS/restuarant.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <section class="container-fluid  d-flex justify-content-between flex-wrap" id="h1">
+            <aside> <img src="../MEDIA/restuarant-logo.png" alt="" class="rounded-circle" width="150px"></aside>
+            <article class=" my-5 mx-2" data-bs-target="#abcd1" data-bs-toggle="offcanvas"> <b> MENU</b>
+                <section class="offcanvas offcanvas-start" id="abcd1">
+
+                    <section class="offcanvas-header">
+                        <article class="btn btn-close bg-danger" data-bs-dismiss="offcanvas"></article>
+                    </section>
+                    <section class="offcanvas-body">
+                        <article class="offcanvas-content my-5">
+
+                            <img src="https://i.pinimg.com/originals/94/f7/94/94f79483b74135a4b8145509a6bbc43f.png"
+                                alt="" class="my-4" width="350px">
+                        </article>
+                    </section>
+                    <section class="offcanvas-footer ">
+
+
+
+                    </section>
+
+
+
+                </section>
+
+
+
+            </article>
+
+            <article class="my-5">
+                <b>Contact</b>
+            </article>
+            <article class="my-5"> <b>Events</b></article>
+            <article class="d-flex flex-column ">
+                <aside>
+                    <ion-icon class="mx-4" name="person-circle-sharp"></ion-icon>
+                </aside>
+                <aside data-bs-target="#abc2" data-bs-toggle="modal"> <b> Sign-in </b> </aside>
+
+                <section class="modal" id="abc2">
+                    <section class="modal-dialog alert-dark">
+                        <section class="modal-header">
+                            <article class="btn btn-close bg-danger"></article>
+                        </section>
+                        <section class="modal-body">
+                            <article>
+                                <label for=""> Email</label>
+                                <input type="email" class="modal-content" placeholder="@email">
+                                <label for=""> Password</label>
+                                <input type="text" class="modal-content" placeholder="*******">
+                            </article>
+                        </section>
+                        <section class="modal-footer ">
+                            <article class="btn btn-success"> Log-in</article>
+                            <article class="btn btn-danger"> <small>forgot password.?</small></article>
+
+                        </section>
+
+                    </section>
+
+
+
+
+
+
+
+            </article>
+            <article>
+                <article class="btn btn-outline-dark  my-5" style="height: 40px; width: 170px;" data-bs-toggle="modal"
+                    data-bs-target="#abc">
+                    <b> Reserve Table </b>
+                </article>
+                <section class="modal" id="abc">
+                    <section class="modal-dialog alert-success">
+                        <section class="modal-header">
+                            <article>
+                                <label for=""> Name</label>
+                                <input type="text" class="modal-content" placeholder="Name">
+                            </article>
+                            <article class="btn btn-close bg-danger"></article>
+                        </section>
+                        <section class="modal-body">
+                            <article>
+                                <label for=""> persons</label>
+                                <input type="number" class="modal-content">
+                                <input type="date" class="modal-content">
+                                Time <input type="time" name="" id="" class="modal-content">
+                            </article>
+                        </section>
+                        <section class="modal-footer ">
+                            <article class="btn btn-primary"> save</article>
+                            <article class="btn btn-danger"> close</article>
+
+                        </section>
+
+                    </section>
+
+                </section>
+            </article>
+
+
+        </section>
+    </header>
+
+
+
+   
+   
+
+    <section id="s1" class="container-fluid py-5">
+        <article class="display-1">
+           <b> Premium food at <br> affortable prices </b>
+        </article>    
+        <article class="text-light">
+            <p> Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Aliquid culpa vitae <br> ipsam maiores, rem quasi ex  consequuntur. <br> Provident, aspernatur nulla explicabo  itaque modi reprehenderit id, deserunt odit a voluptatem ad.</p>
+        </article>
+        <article class="m-5 d-flex">
+            <aside class="btn btn-warning"> learn More </aside>
+            <aside class="btn btn-outline-warning text-light"> GET THE APP</aside>
+        </article>
+    
+    </section>
+
+    <section class="container-fluid alert-warning py-5  text-center text-dark">
+        <article class="spinner d-flex justify-content-evenly flex-wrap my-5">
+            <aside class="spinner-grow "> <img  src="https://i.pinimg.com/originals/62/ac/89/62ac8960e2c0acc1d62eec7bd0cdf80b.png" alt="" width="80px"> </aside>
+            <aside class="spinner-grow "> <img src="data:image/png;base64,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" alt="" width="80px"> </aside>
+            <aside class="spinner-grow "> <img src="https://i.pinimg.com/originals/a9/e3/0e/a9e30e3fed8449a7874ea498ec7d0b93.png" alt="" width="80px"> </aside>
+            <aside class="spinner-grow "> <img src="https://i.pinimg.com/originals/96/5a/ec/965aecc908fb8b7c6b84421e6dd1cfa7.png" alt="" width="80px"> </aside>
+            <aside class="spinner-grow "> <img src="data:image/png;base64,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" alt="" width="80px"> </aside>
+            <aside class="spinner-grow "> <img src="data:image/jpeg;base64,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" alt="" width="80px"> </aside>
+            <aside class="spinner-grow "> <img src="data:image/png;base64,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" alt="" width="80px"> </aside></article>
+         </section>
+    <section class="container">
+        <section class="carousel" id="move" data-bs-ride="carousel">
+            <section class="carousel-indicators">
+                <section class="btn bg-secondary active" data-bs-target="#move" data-bs-slide-to="0">
+                </section>
+                <section class="btn bg-secondary " data-bs-target="#move" data-bs-slide-to="1">
+                </section>
+                <section class="btn bg-secondary " data-bs-target="#move" data-bs-slide-to="2">
+                </section>
+                <section class="btn bg-secondary " data-bs-target="#move" data-bs-slide-to="3">
+                </section>
+                <section class="btn bg-secondary " data-bs-target="#move" data-bs-slide-to="4">
+                </section>
+            </section>
+            <section class="carousel-inner">
+                <section class="carousel-item active">
+                    <img class="d-block w-100 " src="../MEDIA/rest-bg-2.jpg" alt="">
+
+                </section>
+                <section class="carousel-item">
+                    <img class="d-block w-100 " src=" ../MEDIA/rest-bg-3.jpg" alt="">
+                </section>
+                <section class="carousel-item">
+                    <img class="d-block w-100 " src="../MEDIA/rest-bg-4.jpg" alt="">
+                </section>
+                <section class="carousel-item">
+                    <img class="d-block w-100 "
+                        src="https://www.psychnewsdaily.com/wp-content/uploads/2020/10/background-music.jpg" alt="">
+                </section>
+                <section class="carousel-item">
+                    <img class="d-block w-100 "
+                        src="https://ak.picdn.net/offset/photos/536001b78e5b3dd8a2ce3873/medium/offset_99197.jpg?DFghwDcb"
+                        alt="">
+                </section>
+            </section>
+            <section class="btn carousel-control-prev" data-bs-target="#move" data-bs-slide="prev">
+                <section class="carousel-control-prev-icon"></section>
+            </section>
+            <section class="btn carousel-control-next" data-bs-target="#move" data-bs-slide="next">
+                <section class="carousel-control-next-icon"></section>
+            </section>
+
+        </section>
+
+
+
+        <section class="container">
+            <section class="container-fluid alert-warning p-5 text-center">
+                <h1>You're Engaged, Congratulations! We know this dream to get Married is special.</h1>
+            <section  class="d-flex justify-content-between">
+            <section class="carousel" id="move2" data-bs-ride="carousel">
+                <section class="carousel-indicators">
+                    <section class="btn bg-secondary active" data-bs-target="#move2" data-bs-slide-to="0">
+                    </section>
+                    <section class="btn bg-secondary " data-bs-target="#move" data-bs-slide-to="1">
+                    </section>
+                    <section class="btn bg-secondary " data-bs-target="#move" data-bs-slide-to="2">
+                    </section>
+                    <section class="btn bg-secondary " data-bs-target="#move" data-bs-slide-to="3">
+                    </section>
+                    <section class="btn bg-secondary " data-bs-target="#move" data-bs-slide-to="4">
+                    </section>
+                </section>
+                <section class="carousel-inner">
+                    <section class="carousel-item active">
+                        <img class="d-block w-100 "
+                            src="https://ak.picdn.net/offset/photos/536001b78e5b3dd8a2ce3873/medium/offset_99197.jpg?DFghwDcb"
+                            alt="">
+
+                    </section>
+                    <section class="carousel-item">
+                        <img class="d-block w-100 "
+                            src="https://ak.picdn.net/offset/photos/538773ad8e5b3dd8a2ce54e2/medium/offset_106475.jpg?DFghwDcb "
+                            alt="">
+                    </section>
+                    <section class="carousel-item">
+                        <img class="d-block w-100 "
+                            src="https://ak.picdn.net/offset/photos/54fdd30d5a10fc50d2d055ed/medium/offset_195885.jpg?DFghwDcb"
+                            alt="">
+                    </section>
+                    <section class="carousel-item">
+                        <img class="d-block w-100 "
+                            src="https://ak.picdn.net/offset/photos/5419ea23a6dfde507e9f5379/medium/offset_139603.jpg?DFghwDcb"
+                            alt="">
+                    </section>
+                    <section class="carousel-item">
+                        <img class="d-block w-100 "
+                            src="https://ak.picdn.net/offset/photos/5fd257ad6f52af4409e54a64/medium/offset_1056106.jpg?DFghwDcb"
+                            alt="">
+                    </section>
+                </section>
+                <section class="btn carousel-control-prev" data-bs-target="#move2" data-bs-slide="prev">
+                    <section class="carousel-control-prev-icon"></section>
+                </section>
+                <section class="btn carousel-control-next" data-bs-target="#move2" data-bs-slide="next">
+                    <section class="carousel-control-next-icon"></section>
+                </section>
+
+            </section>
+            <section style="width: 300px;">
+                <ul class="list-group "> 
+                <li class="list-group-item bg-light rounded-pill">You want the wedding of your dreams without compromise. A ceremony expressing the heart. Food which is delicious and tempts seconds. Styling where guests go wow. A room which allows you to celebrate.</li>
+                <li class="list-group-item bg-light rounded-pill"> At Tailrace Weddings we want to capture your dream and remove the stress so you can truly enjoy the day with your guests and family</li>
+                <li class="list-group-item bg-dark rounded-pill text-light">Our menu's include:</li>
+                <li class="list-group-item bg-light rounded-pill"><ion-icon name="ellipse"></ion-icon> Canapés </li>
+                <li class="list-group-item bg-light rounded-pill"><ion-icon name="ellipse"></ion-icon>Platters</li>
+                <li class="list-group-item bg-light rounded-pill"><ion-icon name="ellipse"></ion-icon>Grazing Tables</li>
+                <li class="list-group-item bg-light rounded-pill"><ion-icon name="ellipse"></ion-icon>Plated Meals</li>
+                <li class="list-group-item bg-light rounded-pill"><ion-icon name="ellipse"></ion-icon>Buffets </li>
+            </ul>
+            </section>
+            </section>
+
+            </section>
+
+
+
+
+
+
+
+            <section class="container alert-warning p-5 text-center">
+                <h1>Birthday Celebrations</h1>
+            <section  class="d-flex  justify-content-center">
+        
+
+
+
+            <section class="carousel" id="move3" data-bs-ride="carousel">
+                <section class="carousel-indicators">
+                    <section class="btn bg-secondary active" data-bs-target="#move3" data-bs-slide-to="0">
+                    </section>
+                    <section class="btn bg-secondary " data-bs-target="#move" data-bs-slide-to="1">
+                    </section>
+                    <section class="btn bg-secondary " data-bs-target="#move" data-bs-slide-to="2">
+                    </section>
+                    <section class="btn bg-secondary " data-bs-target="#move" data-bs-slide-to="3">
+                    </section>
+                   
+                </section>
+                <section class="carousel-inner">
+                    <section class="carousel-item active">
+                        <img class="d-block w-100 "
+                            src="https://ak.picdn.net/offset/photos/5c12ba077cfb95e6427a4a34/medium/offset_772093.jpg?DFghwDcb"
+                            alt="">
+
+                    </section>
+                    <section class="carousel-item">
+                        <img class="d-block w-100 "
+                            src="https://ak.picdn.net/offset/photos/5f9b42b46f52af4409e4ded6/medium/offset_1028572.jpg?DFghwDcb"
+                            alt="">
+                    </section>
+                    <section class="carousel-item">
+                        <img class="d-block w-100 "
+                            src=" https://ak.picdn.net/offset/photos/5f9b42b76f52af4409e4ded7/medium/offset_1028573.jpg?DFghwDcb"
+                            alt="">
+                    </section>
+                    
+                    <section class="carousel-item">
+                        <img class="d-block w-100 "
+                            src="https://img.freepik.com/premium-photo/group-diverse-people-are-having-lunch-together_53876-157129.jpg"
+                            alt="">
+                    </section>
+                </section>
+                <section class="btn carousel-control-prev" data-bs-target="#move3" data-bs-slide="prev">
+                    <section class="carousel-control-prev-icon"></section>
+                </section>
+                <section class="btn carousel-control-next" data-bs-target="#move3" data-bs-slide="next">
+                    <section class="carousel-control-next-icon"></section>
+                </section>
+
+            </section>
+            </section>
+            </section>
+            
+
+            <section id="abc1" class="container my-5">
+                <article class="row">
+                    <aside class="col border py-5">
+                        <h2>Ratings and reviews</h2>
+                        <h3>5.0 900 <ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon> reviews</h3>
+                        <p> <b> #1</b> of 377 Restaurants in mumbai</p>
+                        <small>  Travellers' Choice</small>
+                    
+                    <aside class="row my-5 ">
+                        <h6>RATINGS</h6>
+                        <aside class="col py-5">
+                            <aside><ion-icon name="restaurant-outline"></ion-icon>Food</aside>
+                            <aside><ion-icon name="hand-left-outline"></ion-icon>Service</aside>
+                            <aside><ion-icon name="wallet-outline"></ion-icon>Value</aside>
+                            <aside><ion-icon name="hand-left-outline"></ion-icon>Atmosphere</aside>
+                        </aside>
+                        <aside class="col py-5">
+                            <aside><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="contrast-outline"></ion-icon></aside>
+                            <aside><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="contrast-outline"></ion-icon></aside>
+                            <aside><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="contrast-outline"></ion-icon></aside>
+                            <aside><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="ellipse"></ion-icon><ion-icon name="contrast-outline"></ion-icon></aside>
+
+                        </aside>
+                    </aside>
+                    </aside>
+                    <aside class="col border py-5" >
+                        <h3>Food and ambience</h3>
+                        <h4>Local cuisine, Chinese, Indian, Bar, Asian, Vegetarian Friendly</h4>
+                        <p>“Yummy curd rice with cashews and pomegranate”</p>
+                        <p>“Some dishes like chicken snowball's, drums of heaven, dolphin special <b> biryani...</b> ”</p>
+                        <p>“... flover is very nice mutton rogan curry very tasty varieties of sweets won...”  </p>
+                        <p>“The love shaped dessert very attractive.Prawn curry mutton rogonjosh in the p...”  </p>
+                    </aside>
+                    <aside class="col border py-5">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60800.95726555402!2d83.24133449845684!3d17.74181990753812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943de6675dcd9%3A0x2f26fb0cbc13e60e!2sSISARA%20DINE%20IN!5e0!3m2!1sen!2sin!4v1667556095159!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <aside> <a href="">
+                            75 Feet Road, Daba Garden Rd 7th Floor, Dolphin Hotel Vishakapatnam, Visakhapatnam 530020 India</a></aside>
+                            <aside class="my-3">  <ion-icon name="basketball-outline"></ion-icon>Website   <ion-icon name="mail-outline"></ion-icon>Email</aside>
+                            <aside class="my-3"><ion-icon name="call-outline"></ion-icon>1236547895</aside>
+                    </aside>
+
+                </article>
+
+            </section>
+        </section>
+        </section>
+
+        <footer>
+            <section id="last1" class="container-fluid d-flex justify-content-between flex-wrap text-light p-5">
+                <article>
+                    <h1>Follow us</h1>
+                    <aside class="d-flex justify-content-between">
+                        <aside><ion-icon name="logo-facebook"></ion-icon></aside>
+                        <aside><ion-icon name="logo-linkedin"></ion-icon></aside>
+                        <aside><ion-icon name="mail-outline"></ion-icon></aside>
+                        <aside><ion-icon name="logo-instagram"></ion-icon></aside>
+                    </aside>
+                </article>
+                <article>
+                    <h3>Our savings programs</h3>
+                    <p>FOOD AND BEVERAGE</p>
+                    <p>SUPPLIES</p>
+                    <p>SERVICES</p>
+                    <p>FURNITURE, FIXTURES AND EQUIPMENT</p>
+                    <p>CUSTOM CONTRACTING
+                    </p>
+                </article>
+                <article>
+                    <h3>Our solutions</h3>
+                    <p>ENTEGRA PURCHASINGIQ</p>
+                    <p>ADVISORY SERVICES</p>
+                    <p>CULINARY SERVICES</p>
+                    <p>SANITATION AND SAFETY SERVICES</p>
+                    <p>ENERGY SERVICES</p>
+                </article>
+                <article>
+                    <h3>Resources</h3>
+                    <p>CONTACT US</p>
+                    <p>  WEBINARS</p>
+                    <p>ARTICLES AND INSIGHTS</p>
+                    <p>CASE STUDY</p>
+                </article>
+            </section>
+          </footer>  
+
+
+
+
+
+
+
+
+            
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>

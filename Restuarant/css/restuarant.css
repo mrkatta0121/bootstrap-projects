@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl6m5jhpBEvLUXeRUES_B0TGMCnYZNMOSVTw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
+}
+ header section article :hover {
+    text-decoration: underline;
+    cursor: pointer;
+} 
+header section article ion-icon {
+    font-size: 3rem;
+    
+}
+#s1 {
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+       padding-left: 8rem;
+    background-image: url(https://bestanimations.com/media/food/1013715523pancakes-animated-gif-3.gif);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(247, 246, 245);
+   
+}
+#s1 b {
+
+ text-shadow: 2px 2px 2px red;
+}
+#s1 p {
+
+    text-shadow: 2px 2px 2px black;
+   }
+#move2 :hover {
+ transform: scale(1.4);
+}
+#abc1 ion-icon{
+    color: green;
+}
+#last1
+{
+    background-image: url(https://static1.bigstockphoto.com/6/3/3/large1500/336994330.jpg);
+    text-shadow: 2px 2px 2px black;
+}
+#last1 h3 {
+    color: chocolate;
+}
+#last1 article :hover {
+ color: chocolate;
+ cursor: pointer;
+}
+#last1 aside  :hover {
+    transform: scale(1.8);
+    color: coral;
+}
+

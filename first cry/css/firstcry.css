@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.h2 {
+    display: flex;
+    gap: .8rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: end;
+    font-size: .9rem;
+    margin-right: 2rem;
+    /* border-left: 1px solid gray; */
+}
+
+.h1 input {
+    width: 300px;
+    height: 35px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: none;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.h1 ion-icon {
+    font-size: 1.4rem;
+    color: chocolate;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-right: 5px;
+}
+
+#i2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+#i2 ion-icon {
+    font-size: 2.5rem;
+}
+
+.h2 aside {
+    border-left: 1px solid rgba(128, 128, 128, 0.767);
+    padding-left: .3rem;
+}
+
+.h1 :hover {
+    cursor: pointer;
+}
+
+.h2 :hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#i2 :hover {
+    text-decoration: none;
+}
+
+.parent1 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 217, 0);
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    font-size: 14px;
+}
+
+#p1id1 {
+    background-color: rgb(0, 153, 255);
+    font-size: 1.4rem;
+    padding-inline: 13px;
+    color: white;
+}
+
+.parent1 aside {
+    padding-block: 12.5px;
+}
+
+.parent1 aside :hover {
+    cursor: pointer;
+    background-color: white;
+    padding-block: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.parent3 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#p3id1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#p3id1 img {
+    width: 400px;
+
+}
+
+.parent3 h1 {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.parent3 aside :hover {
+    cursor: pointer;
+    transform: translateY(-7px);
+    transition-duration: .4s;
+}
+
+.parent4 {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.parent4 h1 {
+    font-size: 1.2rem;
+    padding-inline: 200px;
+    padding-block: 1.4rem;
+    background-color: rgb(247, 243, 238);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.parent4 :hover {
+    transform: translateY(-3px);
+    transition-duration: .5s;
+    background-color: antiquewhite;
+
+}
+
+.parent5 img {
+    width: 1300px;
+}
+
+#p5id1 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#p5id2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent6 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    
+margin-bottom: 0;
+  
+}
+
+#p6id1 img {
+    width: 1300px;
+    
+}
+
+#p6id2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+  margin-top: 0%;
+}
+
+#p6id2 img {
+    width: 328px;
+    
+}
+.parent7{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.parent7 img{
+    width: 1300px;
+    margin-left: 15px;
+}
